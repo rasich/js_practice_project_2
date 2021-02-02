@@ -211,6 +211,9 @@ h4 {
   /* Making it beautiful */
 
 }
+.main-overflow-slider {
+  overflow: hidden;
+}
 .main .file_upload {
   position: relative;
   overflow: hidden;
@@ -836,6 +839,7 @@ h4 {
 .feedback {
   background-color: #f7e7e6;
   padding: 9rem 0;
+  overflow: hidden;
 }
 .feedback-slider-item {
   padding-bottom: 5rem;
