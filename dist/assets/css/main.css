@@ -1099,7 +1099,7 @@ h4 {
   padding: 4rem 6rem 5rem 6rem;
 }
 .popup-gift {
-  z-index: 20;
+  z-index: 31;
   position: fixed;
   display: none;
   top: 0;
@@ -1279,6 +1279,19 @@ h4 {
 }
 .status {
   text-align: center;
+}
+.pageup {
+  opacity: 0;
+  width: 26px ;
+  height: 26px;
+  position: fixed;
+  bottom: 100px;
+  right: 5%;
+  z-index: 30;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: 1s all;
 }
 @media (max-width: 1399px) {
   .paints {
