@@ -16,6 +16,7 @@ const scrolling = (upSelector) => {
       speed = 0.15;
 
   links.forEach(link => {
+    if (link.getAttribute('href') != '#')
     link.addEventListener('click', function(e) {
       e.preventDefault;
 
